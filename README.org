@@ -1,0 +1,46 @@
+#+Title: Summer Projects
+#+Author: Martin
+#+Author: Kynon Jade Benjamin, PhD
+#+STARTUP: logdone lognotedone
+#+OPTIONS: tex:t tex:nil toc:nil
+
+* Background
+** Schizophrenia
+** Caudate Nucleus
+** Importance non-coding RNAs in Schizophrenia
+** GDNF-AS1
+* Methods
+** What samples are we going to use?
+*** (golden) Find PE, stranded, caudate nucleus, control
+*** Brain region specific
+*** Neuron cell types
+*** Tested
+| Study     | Layout | Stranded |
+|-----------+--------+----------|
+| ERP003613 | PE     | No       |
+| SRP072463 | PE     | Yes      |
+** RNAseq data processing
+1. Download annotation and fasta files (scripts from KJ)
+2. Indexing (using GRCh38.p10.ALL)
+   - chromosome 5 only
+   - genome (KJ will upload to github)
+3. Pre-alignment QC
+4. Pre-processing (some other software than flexbar)
+5. Alignment 
+   - Kallisto (script from KJ) [kallisto::this is like Salmon] (*transcripts*)
+   - Hisat2 (v2.1.0)
+6. Post-alignment (RSEQC)
+7. FeatureCounts part of =SubReads= packages (*genes/exons*)
+** RNAseq analysis
+1. edgeR / (DESeq2) / limma-voom
+2. stringtie
+3. Analysis of GDNF-AS1 expression pattern
+  - genes
+  - transcripts
+  - exons
+  - junctions
+  - (optional) derfinder, expressed regions
+** LeafCutter for alternative splicing
+* Results
+* Discussion
+* Conclusion

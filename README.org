@@ -14,11 +14,32 @@
 *** (golden) Find PE, stranded, caudate nucleus, control
 *** Brain region specific
 *** Neuron cell types
-*** Tested
-| Study     | Layout | Stranded |
-|-----------+--------+----------|
-| ERP003613 | PE     | No       |
-| SRP072463 | PE     | Yes      |
+*** Human Public RNA-seq
+| Study     | Layout | Stranded | Accession  | Tissue          |
+|-----------+--------+----------+------------+-----------------|
+| ERP003613 | PE     | No       | ERR315432  | Cortex          |
+|           |        |          | ERR315455  |                 |
+|           |        |          | ERR315477  |                 |
+|           |        |          | ERR315384  | Heart           |
+|           |        |          | ERR315413  |                 |
+|           |        |          | ERR315356  |                 |
+|           |        |          | ERR315327  | Liver           |
+|           |        |          | ERR315451  |                 |
+|           |        |          | ERR315463  |                 |
+|           |        |          | ERR315341  | Lung            |
+|           |        |          | ERR315346  |                 |
+|           |        |          | ERR315424  |                 |
+|-----------+--------+----------+------------+-----------------|
+| SRP072463 | PE     | Yes      | SRR3306830 | Brodmann area 4 |
+|           |        |          | SRR3306831 |                 |
+|           |        |          | SRR3306832 |                 |
+|           |        |          | SRR3306833 |                 |
+|-----------+--------+----------+------------+-----------------|
+| SRP071203 | PE     | ??       |            |                 |
+|-----------+--------+----------+------------+-----------------|
+| ERP016243 | PE     | ??       |            |                 |
+|-----------+--------+----------+------------+-----------------|
+| SRP012682 | PE     | ??       |            |                 |
 ** RNAseq data processing
 1. Download annotation and fasta files (scripts from KJ)
 2. Indexing (using GRCh38.p10.ALL)

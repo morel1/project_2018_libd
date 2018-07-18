@@ -5,69 +5,16 @@
 #+OPTIONS: tex:t tex:nil toc:nil
 
 * Background
-** [[https://www.nimh.nih.gov/health/topics/schizophrenia/index.shtml][Schizophrenia]] (Hyperlink to NIH-NIMH)
-1. Mental disorder that affects persons thoughts, feelings, and behaviors
-   - Altered Perception
-   - Reduced expressive function
-   - Range of reduced cognitive function
-   - No cure, but various treatments/therapies
-     - Antipsychotics
-     - Psycosocial
-     - Specialty care 
-2. Types of risk
-   - Environment
-     - Poverty
-     - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1547920/pdf/bmjcred00554-0006.pdf][Psychosocial]] (An article expanding on this)
-   - Brain chemistry/structure
-     - Developmental issues that affect brain function and neurotransmitters
-   - Genetic
-     - Evidence due to heritability
-     - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4112379/][Genetic risk varients]] (Hyperlink to a meta-analysis - will be focus)
-** [[https://www.ncbi.nlm.nih.gov/pubmed/18824075][Caudate Nucleus]] (Hyperlink to a review)
-1. Part of basal ganglia
-   - Basal ganglia associated with motor function
-   - Can be further broken down into nuclei of activity
-   - Caudate nuclues is part of the striatum of the basal ganglia
-2. Function
-   - Input nuclei to basal ganglia
-     - From dorsolateral prefrontal cortex
-     - Involved in sensory motor loop and recieves input from primary and supplementary motor areas
-   - Lesions in caudate affected:
-     - delayed response, inhibitry control
-     - behavior
-     - visual discrimination learning, reversal learning
-     - switch between response-based and visual cue-based approaches
-   - [[http://www.jneurosci.org/content/25/11/2941][Article]] on Caudate nucleus and leanrning
+** Schizophrenia
+** Caudate Nucleus
 ** Importance non-coding RNAs in Schizophrenia
-1. Non coding RNA (ncRNA)
-   - Does not have potential coding function
-   - There are a few types of [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096308/][ncRNAs in ekaryotes have different regulatory roles (Review on cardiovascular tissue, but good ncRNA descriptions)]]
-   - Shown to affect [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3478095/][brain development and disease]]
-   - May be [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4120821/][region and cell specific]]
-   - Focus - long noncoding RNA (lncRNA)
-     - >200 bases
-     - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583990/][Some regulatory roles]]
-     - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4120821/][Roles in cell fate]]
-2. Genetic Component to Schizophrenia
-   - Schizophrnia is complex and polygenic
-   - ncRNAs have been found to to affect [[https://www.nature.com/articles/s41398-017-0030-5]['pathogenisis of disease']] for Schizophrenia
-   - lncRNAs have been found to be [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4588008/][associated with Schizophrenia]]
 ** GDNF-AS1
-1. Basic information
-   - Named after GDNF
-   - helps dopamine neuron survival
-   - Associated with a variety of [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3247946/][neurodegenerative diseases]]
-     - effective therapy for lab models of Parkison's disease
-     - 
 * Methods
 ** What samples are we going to use?
 *** (golden) Find PE, stranded, caudate nucleus, control
-1. [[http://useast.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000248587;r=5:37811589-37953827][Human: Chromosome 5: 37,811,589-37,953,827 forward strand]]
-   - 5 splice varients
-   - Using GRCh38.p12
 *** Brain region specific
 *** Neuron cell types
-*** Tested
+*** Human Public RNA-seq
 | Study     | Layout | Stranded | Accession  | Tissue          |
 |-----------+--------+----------+------------+-----------------|
 | ERP003613 | PE     | No       | ERR315432  | Cortex          |

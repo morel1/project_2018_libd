@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script used to download fastq files
+
+read -p 'Name of fastq dir: ' FQDIR
+mkdir -p $FQDIR
+cd $FQDIR
+read -p "Link to file 1: " L1 
+read -p "Link to file 2: " L2
+wget $L1
+wget $L2
+echo "download into $FQDIR complete"

@@ -37,7 +37,7 @@
      - behavior
      - visual discrimination learning, reversal learning
      - switch between response-based and visual cue-based approaches
-   - [[http://www.jneurosci.org/content/25/11/2941][Article]] on Caudate nucleus and leanrning
+   - [[http://www.jneurosci.org/content/25/11/2941][Article]] on Caudate nucleus and learning
 ** Importance non-coding RNAs in Schizophrenia
 1. Non coding RNA (ncRNA)
    - Does not have potential coding function
@@ -58,13 +58,12 @@
    - helps dopamine neuron survival
    - Associated with a variety of [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3247946/][neurodegenerative diseases]]
      - effective therapy for lab models of Parkison's disease
-     - 
 * Methods
 ** What samples are we going to use?
 *** (golden) Find PE, stranded, caudate nucleus, control
 1. [[http://useast.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000248587;r=5:37811589-37953827][Human: Chromosome 5: 37,811,589-37,953,827 forward strand]]
    - 5 splice varients
-   - Using GRCh38.p12
+   - Using GRCh38.p10
 *** Brain region specific
 *** Neuron cell types
 *** Tested
@@ -74,8 +73,10 @@
 |           |        |          | ERR315455  |                 |
 |           |        |          | ERR315477  |                 |
 |           |        |          | ERR315384  | Heart           |
+|           |        |          | ERR215328  |                 |
+|           |        |          | ERR315331  |                 |
+|           |        |          | ERR315365  |                 |
 |           |        |          | ERR315413  |                 |
-|           |        |          | ERR315356  |                 |
 |           |        |          | ERR315327  | Liver           |
 |           |        |          | ERR315451  |                 |
 |           |        |          | ERR315463  |                 |
@@ -87,6 +88,7 @@
 |           |        |          | SRR3306831 |                 |
 |           |        |          | SRR3306832 |                 |
 |           |        |          | SRR3306833 |                 |
+|           |        |          |            |                 |
 |-----------+--------+----------+------------+-----------------|
 | SRP071203 | PE     | ??       |            |                 |
 |-----------+--------+----------+------------+-----------------|
@@ -118,6 +120,3 @@
 * Results
 * Discussion
 * Conclusion
-
-
-#TEST

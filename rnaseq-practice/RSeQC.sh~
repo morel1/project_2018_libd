@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Script to run all RSeQC and have output into single directory
+# Assumes RSeQC is in path or ised "pip install RSeQC"
+
+# Name and make new dir
+read -p 'dir name: ' NWDIR
+mkdir -p $NWDIR
+cd $NWDIR
+
+# Choosing input files
+read -e -p 'bam file dir: ' BAM
+read -p 'output name: ' OTNM
+REF=/home/vm2/project/project_libd_2018/refs/Homo_sapiens.GRCh38.91.gtf.gz
+
+# RSeQC
+bam_stat.py -i $BAM
+clipping_profile.py -i $BAM -s PE -o $OTNM
+geneBody_coverage.py -r $REF -i $BAM -o $OTNM
+infer_experiment.py -r $REF -i $BAM
+inner_distance.py -r $REF -i $BAM -o $OTNM
+junction_annotation.py -r $REF -i $BAM -o $OTNM
+junction_saturation.py -r $REF -i $BAM -o $OTNM
+read_distribution.py -r $REF -i $BAM
+read_duplication.py -i $BAM -o $OTNM
+read_GC.py -i $BAM -o $OTNM
+read_NVC.py -i $BAM -o OTNM
+read_quality.py -i $BAM -o $OTNM
